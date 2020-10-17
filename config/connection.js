@@ -1,10 +1,11 @@
 var mysql = require("mysql");
+var password = require("dotenv").config();
 
 var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "Covid19_2020",
+  password: process.env.password,
   database: "burger_db"
 });
 
