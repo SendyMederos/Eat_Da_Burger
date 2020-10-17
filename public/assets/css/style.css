@@ -1,5 +1,5 @@
 div {
-    padding: 1rem;
+    padding: .3rem;
     text-align: center;
 }
 .eatten {
@@ -7,9 +7,16 @@ div {
 }
 ul {
     opacity: 0.75;
+    border-radius: 17px;
 }
+h2, h1 {
+    text-shadow: 0 0 3px #d4751c;
+}
+
 li {
     margin-bottom: .5rem;
+    border-radius: 17px;
+    box-shadow: 5px 5px 10px 1px #888888;
 }       
  .opaquebackground{
         background: url("../img/burger-pattern-background.jpg") ;
