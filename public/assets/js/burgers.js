@@ -7,7 +7,6 @@ $(function() {
         devoured: newEat
       };
   
-      // Send the PUT request.
       $.ajax("/api/burgers/" + id, {
         type: "PUT",
         data: newEaten
