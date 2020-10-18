@@ -1,4 +1,4 @@
-# EAT-DEM-BURGER
+# EAT-DEM-BURGERS
 
 ## Overview:
 
